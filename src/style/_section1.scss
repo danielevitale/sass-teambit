@@ -1,0 +1,70 @@
+.container_section1 {
+  display: flex;
+  width: 100%;
+}
+
+%dimensioni {
+  width: 50%;
+  margin: 100px 0;
+}
+
+.section1_left {
+  @extend %dimensioni;
+  padding-right: 60px;
+
+  h1 {
+    font-size: 50px;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+    font-weight: 600;
+    color: $colore_orincipale;
+    line-height: $line_height_section1;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: $line_height_section1;
+    color: $colore_orincipale;
+    margin-top: $margin_top_section1;
+  }
+
+  .signup {
+    margin-top: $margin_top_section1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    button {
+      padding: 10px 15px;
+      background-color: $colore_blu;
+      color: white;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      border: 0;
+      cursor: pointer;
+    }
+
+    small {
+      color: lightgrey;
+      margin: 0 10px;
+    }
+
+    img {
+      height: $altezza_icone;
+      margin-right: 5px;
+    }
+  }
+
+  a {
+    color: $colore_orincipale;
+    text-decoration: none;
+  }
+}
+
+.section1_right {
+  @extend %dimensioni;
+
+  img {
+    width: 100%;
+  }
+}

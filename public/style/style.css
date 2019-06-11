@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.right,
+.left {
+  float: left;
+  width: 50%;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #58402c;
+}
+
+.left {
+  background-image: url("https://teambit.io/wp-content/themes/teambeat/img/logo.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.right ul {
+  text-align: right;
+}
+
+.right ul li {
+  display: inline;
+  margin-right: 40px;
+  color: #58402c;
+  font-weight: 600;
+}
+
+.right ul li:last-child {
+  color: #30488f;
+  border: 1px solid #30488f;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.right ul li:last-child img {
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5px;
+}
+
+.right ul li:last-child span {
+  margin-left: 20px;
+}
+
+.active {
+  background-color: #30488f;
+}
+
+.container_section1 {
+  display: flex;
+  width: 100%;
+}
+
+.section1_right,
+.section1_left {
+  width: 50%;
+  margin: 100px 0;
+}
+
+.section1_left {
+  padding-right: 60px;
+}
+
+.section1_left h1 {
+  font-size: 50px;
+  font-family: "HarmoniaSansProCyr-SemiBd";
+  font-weight: 600;
+  color: #58402c;
+  line-height: 1.5;
+}
+
+.section1_left p {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #58402c;
+  margin-top: 35px;
+}
+
+.section1_left .signup {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section1_left .signup button {
+  padding: 10px 15px;
+  background-color: #30488f;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.section1_left .signup small {
+  color: lightgrey;
+  margin: 0 10px;
+}
+
+.section1_left .signup img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.section1_left a {
+  color: #58402c;
+  text-decoration: none;
+}
+
+.section1_right img {
+  width: 100%;
+}
+
