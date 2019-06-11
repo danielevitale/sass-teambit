@@ -6,8 +6,8 @@
 
 .container {
   width: 85%;
-  height: 100vh;
   margin: 0 auto;
+  position: relative;
 }
 
 .right,
@@ -63,12 +63,13 @@
 .container_section1 {
   display: flex;
   width: 100%;
+  padding-bottom: 100px;
 }
 
 .section1_right,
 .section1_left {
   width: 50%;
-  margin: 100px 0;
+  padding-top: 100px;
 }
 
 .section1_left {
@@ -125,5 +126,61 @@
 
 .section1_right img {
   width: 100%;
+}
+
+section.due {
+  background-color: #ffe7d2;
+  width: 100%;
+}
+
+.container_section2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container_section2 .title {
+  padding: 100px 60px 0 60px;
+}
+
+.container_section2 .title h1 {
+  color: #58402c;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.container_img {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_img .img {
+  width: 25%;
+}
+
+.container_img .img img {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.container_img .img p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #58402c;
+  text-align: center;
+}
+
+.ultima_img {
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ultima_img img {
+  height: 300px;
 }
 

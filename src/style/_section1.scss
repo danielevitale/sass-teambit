@@ -1,11 +1,12 @@
 .container_section1 {
   display: flex;
   width: 100%;
+  padding-bottom: 100px;
 }
 
 %dimensioni {
   width: 50%;
-  margin: 100px 0;
+  padding-top: 100px;
 }
 
 .section1_left {
@@ -17,12 +18,12 @@
     font-family: 'HarmoniaSansProCyr-SemiBd';
     font-weight: 600;
     color: $colore_orincipale;
-    line-height: $line_height_section1;
+    line-height: $line_height_section;
   }
 
   p {
-    font-size: 25px;
-    line-height: $line_height_section1;
+    font-size: $font_size_p;
+    line-height: $line_height_section;
     color: $colore_orincipale;
     margin-top: $margin_top_section1;
   }
